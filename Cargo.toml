@@ -52,8 +52,8 @@ unicode-segmentation = "1"
 webpki-roots = "0.26"
 whichlang = "0.1.0"
 
-[target.'cfg(not(target_os = "windows"))'.dependencies]
-tikv-jemallocator = "0.6"
+#[target.'cfg(not(target_os = "windows"))'.dependencies]
+#tikv-jemallocator = "0.6"
 
 [profile.release]
 lto = "fat"
